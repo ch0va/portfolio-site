@@ -1,0 +1,101 @@
+<<<<<<< HEAD
+html {
+  scroll-behavior: smooth;
+  font-family: "IBM Plex Mono";
+  background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  letter-spacing: -0.03em;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1600px;
+}
+
+.bio {
+  margin-bottom: 210px;
+}
+
+.bio__background-img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.bio__header {
+  margin-top: 27px;
+  margin-bottom: 345px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+.bio__nav {
+
+  display: flex;
+  gap: 68px;
+}
+
+.bio__link {
+  line-height: 8px;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.bio__link:visited {
+  color: #fff;
+}
+
+.bio__logo {
+  max-width: 178px;
+  height: 53px;
+}
+
+.bio__about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio__my-job {
+  margin-bottom: 40px;
+  display: block;
+  color: #fff;
+  max-width: 590px;
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.bio__greetings {
+  color: #1bff07;
+  max-width: 1260px;
+  font-size: 110px;
+  line-height: 96px;
+}
+=======
+.container {
+    max-width: 1600px;
+}
+
+.bio__background-img {
+    position: relative;
+}
+
+.bio__info {
+    position: absolute;
+}
+>>>>>>> 5b6dc96edce0e23228fa919b772150a10d7a59eb
