@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" sizes="16x16" href="resources/objects/favicon/favicon-16x16.png">
+    <link rel="icon" sizes="32x32" href="resources/objects/favicon/favicon-32x32.png">
+    <link rel="android-chrome" sizes="192x192" href="resources/objects/favicon/android-chrome-192x192.png">
+    <link rel="android-chrome" sizes="512x512" href="resources/objects/favicon/android-chrome-512x512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/image-accordion.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+</head>
+
+<body>
+    <section class="bio">
+        <div class="bio__info container">
+
+            <header class="bio__header">
+                <img src="resources/objects/logo/logo.png" alt="Логотип разработчика Орлов"
+                    srcset="resources/objects/logo/logo@2x.png 2x" class="bio__logo">
+                <nav class="bio__nav">
+
+                    <a class="bio__link" href="http://">портфолио</a>
+                    <a class="bio__link" href="http://">компетенции</a>
+                    <a class="bio__link" href="http://">услуги</a>
+                    <a class="bio__link" href="http://">контакты</a>
+                </nav>
+            </header>
+            <div class="bio__about-me">
+                <p class="bio__my-job">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+                    повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+                <h1 class="bio__greetings">Привет, я Саша — фронтенд разработчик и дизайнер сайтов</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="fresh-projects container">
+
+        <h2 class="fresh-projects__header  h2">Самые свежие проекты</h2>
+
+        <div class="image-accordion">
+            <ul class="image-accordion__list">
+                <li class="image-accordion__list-item image-accordion__gradient">
+                    <a href="#" class="image-accordion__link ">
+                        <div class="fresh-projects__project">
+                            <img class="fresh-projects__img" src="resources/images/landing-page/landing-page.png"
+                                srcset="resources/images/landing-page/landing-page@2.png x2" alt="Realhome">
+                            <h3 class="fresh-projects__project-name h3">Realhome</h3>
+                            <p class="fresh-projects__project-description">дизайн, верстка, настройка</p>
+                        </div>
+                        <div class="fresh-projects__project-type">лендинг пейдж</div>
+                    </a>
+                </li>
+
+                <li class="image-accordion__list-item image-accordion__gradient">
+                    <a href="#" class="image-accordion__link">
+                        <div class="fresh-projects__project">
+                            <img class="fresh-projects__img" src="resources/images/web-interface/web-interface.png"
+                                srcset="resources/images/web-interface/web-interface@2.png x2" alt="Glass" />
+
+                            <h3 class="fresh-projects__project-name h3">GLASS</h3>
+                            <p class="fresh-projects__project-description">разработка интерфейса</p>
+                        </div>
+                        <div class="fresh-projects__project-type">веб интерфейс</div>
+                    </a>
+                </li>
+
+                <li class="image-accordion__list-item">
+                    <a href="#" class="image-accordion__link">
+                        <div class="fresh-projects__project">
+                            <img class="fresh-projects__img"
+                                src="resources/images/mobile-web-interface/mobile-web-interface.png"
+                                srcset="resources/images/mobile-web-interface/mobile-web-interface@2.png x2"
+                                alt="Fesiyen" />
+
+                            <h3 class="fresh-projects__project-name h3">Fesiyen</h3>
+                            <p class="fresh-projects__project-description">разработка интерфейса</p>
+                        </div>
+                        <div class="fresh-projects__project-type">мобильный и веб интерфейс</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <a href="../" class="fresh-projects__show-all">Смотреть все проекты</a>
+    </section>
+
+    <section class="my-competence container">
+        <h2 class="my-competence__header h2"> Мои компетенции</h2>
+        <div class="my-competence__info">
+            <h4 class="my-competence__name h4">HTML и CSS</h4>
+            <h4 class="my-competence__name h4">JavaScript</h4>
+            <p class="my-competence__description">это основа фронтенд разработки. Умение создавать и правильно
+                структурировать HTML-документы, а также применять стили к этим документам на CSS, является обязательным
+                навыком для каждого фронтенд разработчика.</p>
+            <p class="my-competence__description">это язык программирования, который используется для создания
+                динамического и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть
+                знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией
+                данными на стороне клиента.</p>
+
+            <h4 class="my-competence__name h4">Работа с библиотеками и фреймворками</h4>
+            <h4 class="my-competence__name h4">Разработка для мобильных устройств и адаптивная верстка</h4>
+            <p class="my-competence__description">фронтенд разработчики должны быть знакомы с различными библиотеками и
+                фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
+                адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+            <p class="my-competence__description">фронтенд разработчики должны быть знакомы с различными библиотеками и
+                фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
+                адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.</p>
+        </div>
+    </section>
+
+    <section class="tasks-spectrum container">
+        <h3 class="tasks-spectrum__header h3">Помогаю реализовать широкий спектр задач</h3>
+        <div class="tasks-spectrum__task">
+            <img src="resources/images/blue-layout.png" class="tasks-spectrum__img">
+            <div class="tasks-spectrum__info">
+                <p class="tasks-spectrum__name">Разработка сайта под ключ</p>
+                <p class="tasks-spectrum__description">Это создание дизайн веб-сайтов, созданный для удобства
+                    пользователя и решения бизнес-задач
+                    Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит
+                    целевое действие</p>
+            </div>
+        </div>
+        <div class="tasks-spectrum__task">
+            <img src="resources/images/purple-layout.png" class="tasks-spectrum__img">
+            <div class="tasks-spectrum__info">
+                <p class="tasks-spectrum__name">Верстка сайтов</p>
+                <p class="tasks-spectrum__description">Это процесс создания HTML-документов и применения к ним стилей на
+                    CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта
+                </p>
+            </div>
+        </div>
+        <div class="tasks-spectrum__task">
+            <img src="resources/images/pink-layout.png" class="tasks-spectrum__img">
+            <div class="tasks-spectrum__info">
+                <p class="tasks-spectrum__name">Разработка мобильного интерфейса</p>
+                <p class="tasks-spectrum__description">Это процесс создания интерактивных элементов на странице с
+                    помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный
+                    пользовательский интерфейс для вашего сайта или приложения.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="communication">
+        <form class="communication__form container">
+            <h2 class="communication__header h2">Для связи со мной заполните простую форму</h2>
+            <input type="text" name="inp-name" id="inp-name" placeholder="Имя Фамилия"
+                class="communication__name input-box">
+            <input type="email" name="inp-email" id="inp-email" placeholder="example@mail.com"
+                class="communication__email input-box">
+            <button type="button" class="communication__btn-submit">Отправить</button>
+        </form>
+        <img src="resources/images/developer-photo/developer-photo.png"
+            srcset="resources/images/developer-photo/developer-photo@2.png x2" alt="векторное изображение разработчика"
+            class="communication__img">
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container ">
+            <div class="footer__info">
+                <p class="footer__portfolio-by">Портфолио фронтенд-разработчика Саши Орлова</p>
+                <p class="footer__rights">Все права защищены. 2023</p>
+            </div>
+            <div class="footer__links">
+                <nav class="footer__nav">
+                    <a class="footer__link" href="mailto:ch0va@mail.ru">mail</a>
+                    <a class="footer__link" href="https://t.me/ch0va">telegram</a>
+                    <a class="footer__link" href="https://instagram/ch0va_">instagram</a>
+                </nav>
+                <a href="" class="footer__policy">политика обработки данных</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
