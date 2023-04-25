@@ -15,6 +15,7 @@
 
 @media (max-width: 1165px) {
   .image-accordion {
+    z-index: -1;
     height: calc(145vw / 2);
   }
 

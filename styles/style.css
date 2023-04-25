@@ -20,6 +20,11 @@ html {
   color: black;
 }
 
+.body_fixed {
+  overflow: hidden;
+}
+
+
 h1,
 h2,
 h3,

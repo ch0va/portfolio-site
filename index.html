@@ -19,22 +19,43 @@
 <body>
 
     <header class="header container">
-        <img src="resources/objects/logo/logo.png" alt="Логотип разработчика Орлов"
-            srcset="resources/objects/logo/logo@2x.png 2x" class="bio__logo">
+        <img src="resources/objects/logo/logo.png" alt="Логотип разработчика Орлов" class="bio__logo">
         <nav class="bio__nav">
 
-            <a class="bio__link" href="http://">портфолио</a>
-            <a class="bio__link" href="http://">компетенции</a>
-            <a class="bio__link" href="http://">услуги</a>
-            <a class="bio__link" href="http://">контакты</a>
+            <a class="bio__link" href="#fresh-projects">портфолио</a>
+            <a class="bio__link" href="#my-competence">компетенции</a>
+            <a class="bio__link" href="#tasks-spectrum">услуги</a>
+            <a class="bio__link" href="#communication">контакты</a>
         </nav>
+        <button class="header__button-area">
+            <span class="header__button" />
+        </button>
     </header>
+
+    <div class="header__mobile">
+        <div class="header__container">
+            <img src="resources/objects/logo/logo-mobile.png" alt="Логотип разработчика Орлов"
+                class="header__logo_mobile">
+            <nav class="header__nav-mobile">
+                <ul class="header__link-list">
+                    <li> <a class="header__link-mobile" href="#fresh-projects">портфолио</a></li>
+                    <li> <a class="header__link-mobile" href="#my-competence">компетенции</a></li>
+                    <li> <a class="header__link-mobile" href="#tasks-spectrum">услуги</a></li>
+                    <li> <a class="header__link-mobile" href="#communication">контакты</a></li>
+                </ul>
+            </nav>
+            <p class="header__contact-title">для связи:</p>
+            <ul class="header__contacts">
+                <a class="heder__contact-link" href="mailto:ch0va@mail.ru">mail</a>
+                <a class="heder__contact-link" target="_blank" href="https://t.me/ch0va">telegram</a>
+                <a class="heder__contact-link" target="_blank" href="https://instagram/ch0va_">instagram</a>
+            </ul>
+        </div>
+    </div>
 
     <main class="main">
         <section class="bio">
             <div class="bio__info container">
-
-
                 <div class="bio__about-me">
                     <p class="bio__my-job">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
                         повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
@@ -44,7 +65,7 @@
 
         </section>
 
-        <section class="fresh-projects container">
+        <section id="fresh-projects" class="fresh-projects container">
 
             <h2 class="fresh-projects__header  h2">Самые свежие проекты</h2>
 
@@ -91,37 +112,48 @@
             <a href="../" class="fresh-projects__show-all">Смотреть все проекты</a>
         </section>
 
-        <section class="my-competence container">
+        <section id="my-competence" class="my-competence container">
             <h2 class="h2 my-competence__header "> Мои компетенции</h2>
             <div class="my-competence__info">
                 <h4 class="my-competence__name my-competence__name_css h4">HTML и CSS</h4>
                 <h4 class="my-competence__name my-competence__name_js h4">JavaScript</h4>
-                <p class="my-competence__description my-competence__description_css">это основа фронтенд разработки. Умение создавать и правильно
+                <p class="my-competence__description my-competence__description_css">это основа фронтенд разработки.
+                    Умение создавать и правильно
                     структурировать HTML-документы, а также применять стили к этим документам на CSS, является
                     обязательным
                     навыком для каждого фронтенд разработчика.</p>
-                <p class="my-competence__description my-competence__description_js">это язык программирования, который используется для создания
+                <p class="my-competence__description my-competence__description_js">это язык программирования,
+                    который
+                    используется для создания
                     динамического и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен
                     быть
-                    знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией
+                    знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и
+                    манипуляцией
                     данными на стороне клиента.</p>
 
-                <h4 class="my-competence__name my-competence__name_react h4">Работа с библиотеками и фреймворками</h4>
-                <h4 class="my-competence__name my-competence__name_mobile h4">Разработка для мобильных устройств и адаптивная верстка</h4>
-                <p class="my-competence__description my-competence__description_react">фронтенд разработчики должны быть знакомы с различными
+                <h4 class="my-competence__name my-competence__name_react h4">Работа с библиотеками и фреймворками
+                </h4>
+                <h4 class="my-competence__name my-competence__name_mobile h4">Разработка для мобильных устройств и
+                    адаптивная верстка</h4>
+                <p class="my-competence__description my-competence__description_react">фронтенд разработчики должны
+                    быть
+                    знакомы с различными
                     библиотеками и
                     фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
-                    адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.
+                    адаптировать их под нужды проекта и расширять их функциональность, является очень важным
+                    навыком.
                 </p>
-                <p class="my-competence__description my-competence__description_mobile">фронтенд разработчики должны быть знакомы с различными
+                <p class="my-competence__description my-competence__description_mobile">фронтенд разработчики должны
+                    быть знакомы с различными
                     библиотеками и
                     фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
-                    адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.
+                    адаптировать их под нужды проекта и расширять их функциональность, является очень важным
+                    навыком.
                 </p>
             </div>
         </section>
 
-        <section class="tasks-spectrum container">
+        <section id="tasks-spectrum" class="tasks-spectrum container">
             <h3 class="tasks-spectrum__header h3">Помогаю реализовать широкий спектр задач</h3>
             <div class="tasks-spectrum__task">
                 <picture>
@@ -146,7 +178,8 @@
                     <p class="tasks-spectrum__name">Верстка сайтов</p>
                     <p class="tasks-spectrum__description">Это процесс создания HTML-документов и применения к ним
                         стилей на
-                        CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего
+                        CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для
+                        вашего
                         сайта
                     </p>
                 </div>
@@ -154,18 +187,19 @@
             <div class="tasks-spectrum__task">
                 <picture>
                     <source media="(max-width: 768px)" srcset="resources/images/pink-layout-mobile.png">
-                <img src="resources/images/pink-layout.png" class="tasks-spectrum__img">
+                    <img src="resources/images/pink-layout.png" class="tasks-spectrum__img">
                 </picture>
                 <div class="tasks-spectrum__info">
                     <p class="tasks-spectrum__name">Разработка мобильного интерфейса</p>
-                    <p class="tasks-spectrum__description">Это процесс создания интерактивных элементов на странице с
+                    <p class="tasks-spectrum__description">Это процесс создания интерактивных элементов на странице
+                        с
                         помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный
                         пользовательский интерфейс для вашего сайта или приложения.</p>
                 </div>
             </div>
         </section>
 
-        <section class="communication">
+        <section id="communication" class="communication">
             <form class="communication__form container">
                 <h2 class="communication__header">Для связи со мной заполните простую форму</h2>
                 <input type="text" name="inp-name" id="inp-name" placeholder="Имя Фамилия"
@@ -175,7 +209,8 @@
                 <button type="button" class="communication__btn-submit">Отправить</button>
             </form>
             <picture>
-                <source media="(max-width: 1350px)" srcset="resources/images/developer-photo/developer-photo-tablet.png">
+                <source media="(max-width: 1350px)"
+                    srcset="resources/images/developer-photo/developer-photo-tablet.png">
                 <img src="resources/images/developer-photo/developer-photo.png" alt="векторное изображение разработчика"
                     class="communication__img">
             </picture>
@@ -191,15 +226,15 @@
             <div class="footer__links">
                 <nav class="footer__nav">
                     <a class="footer__link" href="mailto:ch0va@mail.ru">mail</a>
-                    <a class="footer__link" href="https://t.me/ch0va">telegram</a>
-                    <a class="footer__link" href="https://instagram/ch0va_">instagram</a>
+                    <a class="footer__link" target="_blank" href="https://t.me/ch0va">telegram</a>
+                    <a class="footer__link" target="_blank" href="https://instagram/ch0va_">instagram</a>
                 </nav>
                 <a href="" class="footer__policy">политика обработки данных</a>
             </div>
         </div>
     </footer>
 
-    <script src="scripts/script.js"></script>
+    <script src="scripts/burger.js"></script>
 </body>
 
 </html>
