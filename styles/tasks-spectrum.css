@@ -1,0 +1,77 @@
+.tasks-spectrum {
+  margin-bottom: 150px;
+  padding: 0 10px;
+}
+
+.tasks-spectrum__header {
+  margin-bottom: 80px;
+  max-width: 400px;
+}
+
+.tasks-spectrum__task {
+  margin-bottom: 100px;
+}
+
+.tasks-spectrum__img {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.tasks-spectrum__info {
+  margin: 0 auto;
+  max-width: 1065px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tasks-spectrum__name {
+  color: #1bff07;
+  font-size: 55px;
+  line-height: 60px;
+  max-width: 470px;
+}
+.tasks-spectrum__description {
+  width: 50%;
+  max-width: 525px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+@media (max-width: 1015px) {
+  .tasks-spectrum {
+    padding: 0 15px;
+    margin-bottom: 135px;
+  }
+
+  .tasks-spectrum__task {
+    margin-bottom: 90px;
+    height: 330px;
+  }
+
+  .tasks-spectrum__header {
+    margin-bottom: 60px;
+  }
+
+  .tasks-spectrum__img {
+    margin-bottom: 32px;
+  }
+
+  .tasks-spectrum__info {
+    max-width: 865px;
+  }
+
+  .tasks-spectrum__name {
+    font-size: 45px;
+    line-height: 50px;
+    max-width: 400px;
+  }
+  .tasks-spectrum__description {
+    max-width: 425px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

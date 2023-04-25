@@ -13,11 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/image-accordion.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/tablet.css">
-    <link rel="stylesheet" href="styles/mobile.css">
 </head>
 
 <body>
@@ -57,40 +53,37 @@
                     <li class="image-accordion__list-item image-accordion__gradient">
                         <a href="#" class="image-accordion__link ">
                             <div class="fresh-projects__project">
-                                <img class="fresh-projects__img" src="resources/images/landing-page/landing-page.png"
-                                    srcset="resources/images/landing-page/landing-page@2.png x2" alt="Realhome">
-                                <h3 class="fresh-projects__project-name h3">Realhome</h3>
+                                <img class="fresh-projects__img" src="resources/images/metrika/metrika.png"
+                                    alt="Макет студии дизайна Метрика">
+                                <h3 class="fresh-projects__project-name h3">метрика</h3>
                                 <p class="fresh-projects__project-description">дизайн, верстка, настройка</p>
                             </div>
-                            <div class="fresh-projects__project-type">лендинг пейдж</div>
+                            <div class="fresh-projects__project-type">дизайн интерьера</div>
                         </a>
                     </li>
 
                     <li class="image-accordion__list-item image-accordion__gradient">
                         <a href="#" class="image-accordion__link">
                             <div class="fresh-projects__project">
-                                <img class="fresh-projects__img" src="resources/images/web-interface/web-interface.png"
-                                    srcset="resources/images/web-interface/web-interface@2.png x2" alt="Glass" />
+                                <img class="fresh-projects__img" src="resources/images/nothing/nothing.png"
+                                    alt="Макет наушников Nothing" />
 
-                                <h3 class="fresh-projects__project-name h3">GLASS</h3>
+                                <h3 class="fresh-projects__project-name h3">nothing</h3>
                                 <p class="fresh-projects__project-description">разработка интерфейса</p>
                             </div>
-                            <div class="fresh-projects__project-type">веб интерфейс</div>
+                            <div class="fresh-projects__project-type">презентация продукта</div>
                         </a>
                     </li>
 
                     <li class="image-accordion__list-item">
                         <a href="#" class="image-accordion__link">
                             <div class="fresh-projects__project">
-                                <img class="fresh-projects__img"
-                                    src="resources/images/mobile-web-interface/mobile-web-interface.png"
-                                    srcset="resources/images/mobile-web-interface/mobile-web-interface@2.png x2"
-                                    alt="Fesiyen" />
-
-                                <h3 class="fresh-projects__project-name h3">Fesiyen</h3>
+                                <img class="fresh-projects__img" src="resources/images/toptrip/toptrip.png"
+                                    alt="Макет сайта для поиска путешествий" />
+                                <h3 class="fresh-projects__project-name h3">toptrip</h3>
                                 <p class="fresh-projects__project-description">разработка интерфейса</p>
                             </div>
-                            <div class="fresh-projects__project-type">мобильный и веб интерфейс</div>
+                            <div class="fresh-projects__project-type">заказ путешествий</div>
                         </a>
                     </li>
                 </ul>
@@ -99,7 +92,7 @@
         </section>
 
         <section class="my-competence container">
-            <h2 class="my-competence__header h2"> Мои компетенции</h2>
+            <h2 class="h2 my-competence__header "> Мои компетенции</h2>
             <div class="my-competence__info">
                 <h4 class="my-competence__name h4">HTML и CSS</h4>
                 <h4 class="my-competence__name h4">JavaScript</h4>
@@ -135,7 +128,7 @@
                 <div class="tasks-spectrum__info">
                     <p class="tasks-spectrum__name">Разработка сайта под ключ</p>
                     <p class="tasks-spectrum__description">Это создание дизайн веб-сайтов, созданный для удобства
-                        пользователя и решения бизнес-задач
+                        пользователя и решения бизнес-задач <br>
                         Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь
                         совершит
                         целевое действие</p>
@@ -165,16 +158,18 @@
 
         <section class="communication">
             <form class="communication__form container">
-                <h2 class="communication__header h2">Для связи со мной заполните простую форму</h2>
+                <h2 class="communication__header">Для связи со мной заполните простую форму</h2>
                 <input type="text" name="inp-name" id="inp-name" placeholder="Имя Фамилия"
                     class="communication__name input-box">
                 <input type="email" name="inp-email" id="inp-email" placeholder="example@mail.com"
                     class="communication__email input-box">
                 <button type="button" class="communication__btn-submit">Отправить</button>
             </form>
-            <img src="resources/images/developer-photo/developer-photo.png"
-                srcset="resources/images/developer-photo/developer-photo@2.png x2"
-                alt="векторное изображение разработчика" class="communication__img">
+            <picture>
+                <source media="(max-width: 1350px)" srcset="resources/images/developer-photo/developer-photo-tablet.png">
+                <img src="resources/images/developer-photo/developer-photo.png" alt="векторное изображение разработчика"
+                    class="communication__img">
+            </picture>
         </section>
     </main>
 

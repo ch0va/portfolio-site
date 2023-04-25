@@ -1,0 +1,27 @@
+.input-box {
+  padding: 15px 40px;
+  background: #3b3d3b;
+  color: #fff;
+  font-size: 22px;
+  line-height: 29px;
+  max-width: 560px;
+  border: 3px solid #1bff07;
+  border-radius: 50px;
+}
+
+.input-box::placeholder {
+  color: #fff;
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+@media (max-width: 1015px) {
+  .input-box {
+    padding: 10px 24px;
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 335px;
+  }
+}

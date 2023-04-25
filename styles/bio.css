@@ -1,0 +1,76 @@
+.bio {
+  margin-bottom: 150px;
+  padding: 330px 10px 0 10px;
+  background: url(../resources/images/yourself-photo/yourself-photo.png) center
+    center/cover no-repeat;
+  width: 100%;
+  height: 765px;
+}
+
+.bio__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.bio__link {
+  line-height: 23px;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 400ms;
+}
+
+.bio__link:hover {
+  transition: all 400ms;
+  color: #1bff07;
+}
+
+.bio__link:visited {
+  color: #fff;
+}
+
+.bio__logo {
+  max-width: 130px;
+  height: 40px;
+}
+
+.bio__about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio__my-job {
+  margin-bottom: 30px;
+  display: block;
+  color: #fff;
+  max-width: 430px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.bio__greetings {
+  color: #1bff07;
+  max-width: 920px;
+  font-size: 80px;
+  line-height: 70px;
+}
+
+@media (max-width: 1015px) {
+  .bio {
+    padding: 370px 15px 0 15px;
+    background: url(../resources/images/yourself-photo/yourself-photo-tablet.png)
+      center center/cover no-repeat;
+    margin-bottom: 135px;
+  }
+
+  .bio__nav {
+    display: none;
+  }
+
+  .bio__greetings {
+    font-size: 60px;
+    width: 75vw;
+  }
+}
