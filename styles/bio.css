@@ -11,6 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  margin-right: 10px;
 }
 
 .bio__link {
@@ -34,6 +35,7 @@
 .bio__logo {
   max-width: 130px;
   height: 40px;
+  margin-left: 10px;
 }
 
 .bio__about-me {
@@ -65,12 +67,38 @@
     margin-bottom: 135px;
   }
 
+  .bio__logo {
+    margin-left: 15px;
+  }
+
   .bio__nav {
     display: none;
+    margin-right: 15px;
   }
 
   .bio__greetings {
     font-size: 60px;
     width: 75vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .bio {
+    padding: 340px 15px 0 15px;
+    background: url(../resources/images/yourself-photo/yourself-photo-phone.png)
+      center center/cover no-repeat;
+    margin-bottom: 100px;
+  }
+
+  .bio__my-job {
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 90%;
+  }
+
+  .bio__greetings {
+    font-size: 40px;
+    line-height: 47px;
+    width: 95vw;
   }
 }

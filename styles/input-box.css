@@ -25,3 +25,9 @@
     max-width: 335px;
   }
 }
+
+@media (max-width: 768px) {
+  .input-box {
+    max-width: 100%;
+  }
+}

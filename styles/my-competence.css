@@ -72,3 +72,57 @@
     line-height: 23px;
   }
 }
+
+@media (max-width: 768px) {
+  .my-competence {
+    margin-bottom: 100px;
+  }
+
+  .my-competence__info {
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    column-gap: 10px;
+    row-gap: 12px;
+  }
+
+  .my-competence__name_css {
+    order: 0;
+  }
+
+  .my-competence__description_css {
+    order: 1;
+  }
+
+  .my-competence__name_js {
+    order: 2;
+  }
+
+  .my-competence__description_js {
+    order: 3;
+  }
+
+  .my-competence__name_react {
+    order: 4;
+  }
+  .my-competence__description_react {
+    order: 5;
+  }
+  .my-competence__name_mobile {
+    order: 6;
+  }
+
+  .my-competence__description_mobile {
+    order: 7;
+  }
+
+  .my-competence__name::before {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 11px;
+  }
+
+  .my-competence__description {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

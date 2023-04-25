@@ -94,26 +94,26 @@
         <section class="my-competence container">
             <h2 class="h2 my-competence__header "> Мои компетенции</h2>
             <div class="my-competence__info">
-                <h4 class="my-competence__name h4">HTML и CSS</h4>
-                <h4 class="my-competence__name h4">JavaScript</h4>
-                <p class="my-competence__description">это основа фронтенд разработки. Умение создавать и правильно
+                <h4 class="my-competence__name my-competence__name_css h4">HTML и CSS</h4>
+                <h4 class="my-competence__name my-competence__name_js h4">JavaScript</h4>
+                <p class="my-competence__description my-competence__description_css">это основа фронтенд разработки. Умение создавать и правильно
                     структурировать HTML-документы, а также применять стили к этим документам на CSS, является
                     обязательным
                     навыком для каждого фронтенд разработчика.</p>
-                <p class="my-competence__description">это язык программирования, который используется для создания
+                <p class="my-competence__description my-competence__description_js">это язык программирования, который используется для создания
                     динамического и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен
                     быть
                     знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией
                     данными на стороне клиента.</p>
 
-                <h4 class="my-competence__name h4">Работа с библиотеками и фреймворками</h4>
-                <h4 class="my-competence__name h4">Разработка для мобильных устройств и адаптивная верстка</h4>
-                <p class="my-competence__description">фронтенд разработчики должны быть знакомы с различными
+                <h4 class="my-competence__name my-competence__name_react h4">Работа с библиотеками и фреймворками</h4>
+                <h4 class="my-competence__name my-competence__name_mobile h4">Разработка для мобильных устройств и адаптивная верстка</h4>
+                <p class="my-competence__description my-competence__description_react">фронтенд разработчики должны быть знакомы с различными
                     библиотеками и
                     фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
                     адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.
                 </p>
-                <p class="my-competence__description">фронтенд разработчики должны быть знакомы с различными
+                <p class="my-competence__description my-competence__description_mobile">фронтенд разработчики должны быть знакомы с различными
                     библиотеками и
                     фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
                     адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком.
@@ -124,7 +124,10 @@
         <section class="tasks-spectrum container">
             <h3 class="tasks-spectrum__header h3">Помогаю реализовать широкий спектр задач</h3>
             <div class="tasks-spectrum__task">
-                <img src="resources/images/blue-layout.png" class="tasks-spectrum__img">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="resources/images/blue-layout-mobile.png">
+                    <img src="resources/images/blue-layout.png" class="tasks-spectrum__img">
+                </picture>
                 <div class="tasks-spectrum__info">
                     <p class="tasks-spectrum__name">Разработка сайта под ключ</p>
                     <p class="tasks-spectrum__description">Это создание дизайн веб-сайтов, созданный для удобства
@@ -135,7 +138,10 @@
                 </div>
             </div>
             <div class="tasks-spectrum__task">
-                <img src="resources/images/purple-layout.png" class="tasks-spectrum__img">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="resources/images/purple-layout-mobile.png">
+                    <img src="resources/images/purple-layout.png" class="tasks-spectrum__img">
+                </picture>
                 <div class="tasks-spectrum__info">
                     <p class="tasks-spectrum__name">Верстка сайтов</p>
                     <p class="tasks-spectrum__description">Это процесс создания HTML-документов и применения к ним
@@ -146,7 +152,10 @@
                 </div>
             </div>
             <div class="tasks-spectrum__task">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="resources/images/pink-layout-mobile.png">
                 <img src="resources/images/pink-layout.png" class="tasks-spectrum__img">
+                </picture>
                 <div class="tasks-spectrum__info">
                     <p class="tasks-spectrum__name">Разработка мобильного интерфейса</p>
                     <p class="tasks-spectrum__description">Это процесс создания интерактивных элементов на странице с

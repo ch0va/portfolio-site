@@ -75,3 +75,47 @@
     line-height: 23px;
   }
 }
+
+@media (max-width: 768px) {
+  .tasks-spectrum {
+    margin-bottom: 0;
+  }
+
+  .tasks-spectrum__task {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+    height: fit-content;
+  }
+
+  .tasks-spectrum__header {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .tasks-spectrum__img {
+    margin-bottom: 32px;
+    height: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .tasks-spectrum__info {
+    padding: 0 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tasks-spectrum__name {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+  .tasks-spectrum__description {
+    width: 100%;
+    max-width: 100%;
+  }
+}

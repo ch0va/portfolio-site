@@ -53,3 +53,9 @@
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .image-accordion {
+    margin-bottom: 60px;
+  }
+}
