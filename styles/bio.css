@@ -28,10 +28,6 @@
   color: #1bff07;
 }
 
-.bio__link:visited {
-  color: #fff;
-}
-
 .bio__logo {
   max-width: 130px;
   height: 40px;

@@ -39,10 +39,6 @@
   transition: all 400ms;
 }
 
-.footer__link:visited {
-  color: #000;
-}
-
 .footer__link:hover {
   transition: all 400ms;
   color: #18e606;
