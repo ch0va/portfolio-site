@@ -89,12 +89,14 @@
   .bio__my-job {
     font-size: 15px;
     line-height: 20px;
-    max-width: 90%;
+    width: 90%;
+    max-width: 350px;
   }
 
   .bio__greetings {
     font-size: 40px;
     line-height: 47px;
     width: 95vw;
+    max-width: 500px;
   }
 }
