@@ -31,6 +31,7 @@
   color: #1bff07;
   font-size: 55px;
   line-height: 60px;
+  width: 100%;
   max-width: 470px;
 }
 .tasks-spectrum__description {
@@ -70,6 +71,7 @@
     max-width: 400px;
   }
   .tasks-spectrum__description {
+    width: calc(50% - 30px);
     max-width: 425px;
     font-size: 18px;
     line-height: 23px;

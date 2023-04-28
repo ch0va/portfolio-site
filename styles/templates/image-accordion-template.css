@@ -7,7 +7,7 @@
   .image-accordion__list-item {
     position: relative;
     height: 370px;
-    transition: all 1s;
+    transition: all 0.7s;
     transition-delay: 0.1s;
   }
 

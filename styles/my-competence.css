@@ -17,7 +17,7 @@
 }
 
 .my-competence__item {
-  max-width: 46%;
+  max-width: calc(50% - 5px);
 }
 
 .my-competence__icon {
@@ -56,7 +56,7 @@
   }
   
   .my-competence__item {
-    max-width: 49%;
+    max-width: calc(50% - 10px);
   }
   
   .my-competence__icon {

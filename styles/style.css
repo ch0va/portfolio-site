@@ -20,6 +20,10 @@ html {
   color: black;
 }
 
+button, input {
+  font-family: inherit;
+}
+
 .body_fixed {
   overflow: hidden;
 }
